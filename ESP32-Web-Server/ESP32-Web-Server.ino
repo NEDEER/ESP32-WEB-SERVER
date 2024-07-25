@@ -100,7 +100,7 @@ void loop() {
             client.println("text-decoration: none; font-size: 32px; margin: 2px; cursor: pointer;}</style></head>");
 
             client.println("<body><h1>ESP32 Web Server</h1>");
-            client.println("<p>Control LED State</p>");
+            client.println("<p>Control LED State< BY NEDER/p>");
 
             if (statePin33 == "off") {
               client.println("<p><a href=\"/33/on\"><button class=\"button\">LED 1 ON</button></a></p>");
